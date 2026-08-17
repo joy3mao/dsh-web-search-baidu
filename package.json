@@ -1,0 +1,36 @@
+{
+  "name": "dsh-web-search-baidu",
+  "description": "Baidu Qianfan web search provider for the dsh web seam (ctx.web): backs the built-in web_search tool with Baidu AI search when the default provider has no API key configured.",
+  "version": "0.1.0-rc.6",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "web-search",
+    "baidu",
+    "qianfan"
+  ],
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-credentials": "0.1.0-rc.6",
+    "@deepseek-ai/dsh-launch-environment": "0.1.0-rc.6",
+    "@deepseek-ai/dsh-settings": "0.1.0-rc.6",
+    "@deepseek-ai/dsh-web": "0.1.0-rc.6",
+    "@deepseek-ai/schemastery": "3.18.1"
+  }
+}
