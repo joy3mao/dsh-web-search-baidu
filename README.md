@@ -23,11 +23,11 @@ profile with the plugin command — from a local folder or a git repository.
 ```sh
 # From a local folder (relative or absolute):
 dsh plugin --profile web add file:/path/to/dsh-web-search-baidu
-
-# From a git repository (after pushing; any git host works):
-dsh plugin --profile web add git+https://github.com/<user>/dsh-web-search-baidu.git
-#   or shorthand:  dsh plugin --profile web add github:<user>/dsh-web-search-baidu
-#   or a specific ref:  ... git+https://github.com/<user>/dsh-web-search-baidu.git#v0.1.0-rc.6
+```
+or
+```sh
+# From a git repository:
+dsh plugin --profile web add git:joy3mao/dsh-web-search-baidu.git
 ```
 
 `dsh plugin ... add` forwards to pnpm in the profile directory; the package
