@@ -1,5 +1,13 @@
 # dsh-web-search-baidu
 
+<div align="center">
+
+[🇺🇸 **English**](README.md) ・ [🇨🇳 **中文**](README.zh-CN.md)
+
+</div>
+
+---
+
 Baidu Qianfan web search provider for the dsh web seam (`ctx.web`). Registers a
 `WebSearchProvider` under the stable id `baidu` that calls Baidu's AI search
 endpoint, so the built-in `web_search` tool (mounted by the `standard` agent
